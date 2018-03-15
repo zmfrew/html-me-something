@@ -1,0 +1,77 @@
+/* Header formatting */
+header {
+    background-color: #f5f0e1;
+    position: fixed;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+    margin: 0 4rem 0 4rem;
+    color: #2e507c;
+    height: 100%;
+}
+
+a:hover {
+    color: #f5f0e1;
+    background-color: #2e507c;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-delay: 175ms;
+}
+
+/* Top section formatting */
+div.top-section {
+    height: 40rem;
+    background-image: url("https://i.imgur.com/H7yDgcu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 7rem;
+    color: #c7e2e0;
+    opacity: 0.75;
+}
+
+/* All sections */
+section {
+    margin: 4rem;
+    background-color: #b4d1e4;
+    color: #1a283b;
+    padding: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3, h4 {
+    font-size: 1.25rem;
+    margin-left: 2rem;
+    padding: 1rem 0;
+}
+
+/* First section */
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Second section */
+
+/* Third section */
+#live {
+    padding-bottom: 1rem;
+}
