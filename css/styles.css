@@ -57,8 +57,7 @@ p {
 
 ol {
     line-height: 1.75rem;
-    display: list-item;
-    display: list-item;
+    padding-top: 2rem;
 }
 
 /* Top section formatting */
@@ -101,12 +100,23 @@ div.first-section-wrap {
 }
 
 /* Aside section */
-.aside {
+aside {
     display: flex;
+    flex-direction: column;
 }
 
 li {
     padding: 0.5rem 0;
+}
+
+img {
+    text-align: center;
+    padding: 5rem 0;
+    width: 100%;
+}
+
+.article-citation {
+    font-size: 0.8rem;
 }
 
 /* Second section */
