@@ -1,6 +1,6 @@
 /* Header formatting */
 header {
-    background-color: #f5f0e1;
+    background-color: rgb(12, 12, 12);
     font-size: 1.2rem;
     position: fixed;
     display: flex;
@@ -15,12 +15,12 @@ header {
 header a {
     text-decoration: none;
     margin: 0 4rem 0 4rem;
-    color: #2e507c;
+    color: #b4d1e4;
 }
 
 a:hover {
-    color: #f5f0e1;
-    background-color: #2e507c;
+    color: rgb(12, 12, 12);
+    background-color: #b4d1e4;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-delay: 175ms;
@@ -147,9 +147,8 @@ img {
 /* Footer */
 footer {
     margin: 1rem 3%;
-    background-color: #8dadc2;
-    color: #1a283b;
-    padding: 1rem;
+    color: #8dadc2;
+    padding: 0.5rem;
     text-align: right;
     border-radius: 0.25rem;
 }
