@@ -43,6 +43,7 @@ section, aside {
 h2 {
     font-size: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 h3, h4 {
@@ -122,11 +123,11 @@ img {
 /* Second section */
 .second-section {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.evergreen-tree-pic {
-    height: 25%;
-    width: 25%;
+.second-section-inner-wrap-1 {
+    width: 50%;
 }
 
 /* Third section */
