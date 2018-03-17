@@ -135,6 +135,15 @@ img {
     padding-bottom: 1rem;
 }
 
+#night-images {
+    display: flex;
+}
+
+.night-pic {
+    padding: 2rem;
+}
+
+
 /* Footer */
 footer {
     margin: 1rem 3%;
