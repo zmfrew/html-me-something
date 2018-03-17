@@ -27,11 +27,11 @@ a:hover {
 }
 
 /* All sections */
-section {
-    margin: 4rem;
+section, aside {
+    margin: 2rem 3%;
     background-color: #b4d1e4;
     color: #1a283b;
-    padding: 4rem;
+    padding: 3rem;
     border-radius: 0.25rem;
 }
 
@@ -57,7 +57,7 @@ ol {
 }
 
 /* Top section formatting */
-div.top-section {
+div.top-section-wrap {
     height: 40rem;
     background-image: url("https://i.imgur.com/H7yDgcu.png");
     background-position: center;
@@ -80,6 +80,11 @@ h1 {
 }
 
 /* First section */
+
+div.first-section-wrap {
+    display: inline-flex;
+}
+
 .first-section {
     display: flex;
     flex-direction: column;
@@ -88,6 +93,15 @@ h1 {
 .mountain-pic {
     padding: 2rem 0;
     width: 100%;
+}
+
+/* Aside section */
+.aside {
+    display: flex;
+}
+
+li {
+    padding: 0.5rem 0;
 }
 
 /* Second section */
