@@ -27,6 +27,11 @@ a:hover {
 }
 
 /* All sections */
+
+body {
+    background-color: rgb(12, 12, 12);
+}
+
 section, aside {
     margin: 2rem 3%;
     background-color: #b4d1e4;
@@ -109,4 +114,14 @@ li {
 /* Third section */
 #live {
     padding-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    margin: 1rem 3%;
+    background-color: #8dadc2;
+    color: #1a283b;
+    padding: 1rem;
+    text-align: right;
+    border-radius: 0.25rem;
 }
